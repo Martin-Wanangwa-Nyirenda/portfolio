@@ -1,15 +1,19 @@
 import Technologies from "./components/Technologies";
 import Projects from "./components/Projects";
 import Contacts from "./components/Contact";
+import Head from "next/head";
 
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>Martin Nyirenda - Portfolio</title>
+      </Head>
       <div className="2xl:container bg-[url('/image4.png')] bg-repeat-y bg-cover flex flex-col items-center">
-        <h1 className="text-4xl font-bold text-zinc-50 text-center mt-16 w-3/6">
-          Hi, Im Martin
+        <h1 className="text-4xl font-bold text-center mt-16 w-3/6 bg-gradient-to-r from-zinc-50 to-purple-400 bg-clip-text text-transparent">
+          Hi, I'm Martin
         </h1>
-        <h1 className="text-6xl font-bold text-zinc-50 text-center mt-8 w-3/6 bg-gradient-r from-purple-400 to-pink-500 bg-clip-text text-transparent">
+        <h1 className="text-6xl font-bold text-center mt-8 w-3/6 bg-gradient-to-br from-zinc-300 to-purple-500 bg-clip-text text-transparent">
           I love coding and solving problems with my skills.
         </h1>
         <button className="border-zinc-50 mt-20 border-2 py-3 px-4 text-lg font-bold rounded-lg hover:bg-sky-500">
