@@ -7,15 +7,19 @@ import {
   faInstagram,
   faFacebook,
 } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
 export default function Contacts() {
   return (
-    <div className="flex justify-between w-80 mt-32">
-      <a href="#">
+    <div className="flex justify-between w-96 mb-32 mt-24">
+      <a href="https://github.com/Martin-Wanangwa-Nyirenda">
         <FontAwesomeIcon icon={faGithub} size="3x" className="text-zinc-50" />
       </a>
-      <a href="#">
+      <a href="www.linkedin.com/in/martin-nyirenda">
         <FontAwesomeIcon icon={faLinkedin} size="3x" className="text-zinc-50" />
+      </a>
+      <a href="mailto:martinnyirenda8@gmail.com">
+        <FontAwesomeIcon icon={faEnvelope} size="3x" className="text-zinc-50" />
       </a>
       <a href="#">
         <FontAwesomeIcon icon={faTelegram} size="3x" className="text-zinc-50" />
