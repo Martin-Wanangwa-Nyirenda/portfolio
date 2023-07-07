@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
       <div className="2xl:container bg-[url('/image4.png')] bg-repeat-y bg-cover flex flex-col items-center">
         <h1 className="text-4xl font-bold text-center mt-16 w-3/6 bg-gradient-to-r from-zinc-50 to-purple-400 bg-clip-text text-transparent">
-          Hi, I'm Martin
+          Hi, I&apos;m Martin
         </h1>
         <h1 className="text-6xl font-bold text-center mt-8 w-3/6 bg-gradient-to-br from-zinc-300 to-purple-500 bg-clip-text text-transparent">
           I love coding and solving problems with my skills.
