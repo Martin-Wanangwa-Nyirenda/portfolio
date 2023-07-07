@@ -1,5 +1,5 @@
-import '@/styles/globals.css'
-import type { AppProps } from 'next/app'
+import "@/styles/globals.css";
+import type { AppProps } from "next/app";
 import {
   createDOMRenderer,
   FluentProvider,
@@ -7,8 +7,12 @@ import {
   SSRProvider,
   RendererProvider,
   webLightTheme,
-} from '@fluentui/react-components';
+  webDarkTheme,
+} from "@fluentui/react-components";
 type EnhancedAppProps = AppProps & { renderer?: GriffelRenderer };
+import { config } from "@fortawesome/fontawesome-svg-core";
+import "@fortawesome/fontawesome-svg-core/styles.css";
+config.autoAddCss = false;
 
 function MyApp({ Component, pageProps, renderer }: EnhancedAppProps) {
   return (
@@ -16,7 +20,7 @@ function MyApp({ Component, pageProps, renderer }: EnhancedAppProps) {
     //    Also triggers rehydration a client
     <RendererProvider renderer={renderer || createDOMRenderer()}>
       <SSRProvider>
-        <FluentProvider theme={webLightTheme}>
+        <FluentProvider theme={webDarkTheme}>
           <Component {...pageProps} />
         </FluentProvider>
       </SSRProvider>

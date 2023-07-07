@@ -1,0 +1,16 @@
+export const icons = [
+  "/brands/tailwind-css-wordmark-seeklogo.com.svg",
+  "/brands/azure-svgrepo-com.svg",
+  "/brands/c-sharp-c-seeklogo.com.svg",
+  "/brands/firebase-seeklogo.com.svg",
+  "/brands/gcp-svgrepo-com.svg",
+  "/brands/html5-seeklogo.png",
+  "/brands/python-seeklogo.com.svg",
+  "/brands/react-svgrepo-com.svg",
+  "/brands/sql-svgrepo-com.svg",
+  "/brands/nodejs-seeklogo.com.svg",
+  "/brands/typescript-seeklogo.com.svg",
+  "/brands/nextjs-seeklogo.com.svg",
+  "/brands/docker-seeklogo.com.svg",
+  "/brands/css3-seeklogo.com.svg",
+];
