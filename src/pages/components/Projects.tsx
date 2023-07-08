@@ -30,10 +30,10 @@ export default function Projects() {
 
   return (
     <>
-      <div className="grid grid-cols-3 gap-4 mt-16">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-16">
         {projects.map((item: any) => (
           <a key={item.id} href={item.projectURL}>
-            <Card className="transform transition-all duration-300 hover:scale-105 cursor-pointer bg-cyan-500">
+            <Card className="transform transition-all duration-300 hover:scale-105 cursor-pointer mx-6">
               <CardPreview>
                 <img src={item.imageURL} alt="Presentation Preview" />
               </CardPreview>

@@ -21,7 +21,7 @@ async function getProjects(): Promise<Project[]> {
       name: doc.data().projectName,
       description: doc.data().description,
       imageURL: await getImageDownloadURL(doc.data().imageLocation),
-      projectURL: doc.data().projectURL,
+      projectURL: doc.data().projectUrl,
       id: doc.id,
     };
     projects.push(projectData);
