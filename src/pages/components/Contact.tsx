@@ -11,11 +11,11 @@ import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
 export default function Contacts() {
   return (
-    <div className="flex justify-between w-96 mb-32 mt-24">
+    <div className="flex justify-between w-96 mb-32 mt-24 mx-auto">
       <a href="https://github.com/Martin-Wanangwa-Nyirenda">
         <FontAwesomeIcon icon={faGithub} size="3x" className="text-zinc-50" />
       </a>
-      <a href="www.linkedin.com/in/martin-nyirenda">
+      <a href="https://www.linkedin.com/in/martin-nyirenda">
         <FontAwesomeIcon icon={faLinkedin} size="3x" className="text-zinc-50" />
       </a>
       <a href="mailto:martinnyirenda8@gmail.com">
