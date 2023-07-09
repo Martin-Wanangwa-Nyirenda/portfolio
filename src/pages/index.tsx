@@ -17,7 +17,7 @@ export default function Home() {
       <Head>
         <title>Martin Nyirenda - Portfolio</title>
       </Head>
-      <main className="bg-[url('/image3.png')] bg-repeat-y bg-cover flex flex-col items-center justify-center w-screen min-h-screen">
+      <main className="bg-[url('/image3.png')] bg-cover flex items-center justify-center w-full">
         <div className="container max-w-7xl mx-auto">
           <section className="flex flex-col justify-center items-center mt-8 md:mt-24">
             <h1 className="text-2xl font-bold md:text-4xl lg:text-4xl  text-center mt-16 w-3/6 bg-gradient-to-r from-zinc-50 to-purple-400 bg-clip-text text-transparent">
@@ -53,7 +53,7 @@ export default function Home() {
             <div className="hidden md:block border-t-4 mr-8 w-full"></div>
             <p
               ref={sectionRef}
-              className="text-zinc-50 md:w-96 italic text-xl sm:text-2xl md:text-4xl lg:text-4xl xl:w-3/4 text-center"
+              className="text-zinc-50 md:w-96 italic text-2xl sm:text-2xl md:text-4xl lg:text-4xl xl:w-3/4 text-center"
             >
               you have seen my work and toolbox. Here, is how you can get in
               touch with me.
